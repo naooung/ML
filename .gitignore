@@ -1,0 +1,81 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# --------------------
+# Python 기본
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# --------------------
+# Virtual Environment
+bin/
+lib/
+include/
+etc/
+share/
+pyvenv.cfg
+
+# --------------------
+# IDE / Editor
+.vscode/
+.idea/
+
+# --------------------
+# OS
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs & Temp
+*.log
+*.tmp
+*.swp
+
+# --------------------
+# 데이터셋 & 결과물
+data/
+datasets/
+inputs/
+outputs/
+results/
+
+# 영상/이미지 원본 (필요 시만 업로드)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# --------------------
+# 머신러닝 특화
+# 모델 가중치 / 체크포인트
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+checkpoints/
+models/
+
+# 학습 로그 & 기록 툴
+wandb/          # Weights & Biases
+mlruns/         # MLflow
+tensorboard/    # TensorBoard
+lightning_logs/ # PyTorch Lightning
+
+# 캐시
+*.npy
+*.npz
+*.pkl
+*.joblib
